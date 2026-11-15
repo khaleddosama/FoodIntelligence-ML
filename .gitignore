@@ -1,0 +1,48 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Local datasets and generated ML artifacts
+**/data/raw/
+**/data/processed/
+**/data/**/*.csv
+**/data/**/*.parquet
+**/data/**/*.zip
+**/data/**/*.tar.gz
+**/models/checkpoints/
+mlruns/
+wandb/
+
+# Temporary files and logs
+*.tmp
+*.log
+*.bak
+*~
